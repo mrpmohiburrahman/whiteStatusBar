@@ -10,10 +10,10 @@ import {
 export default function App() {
   return (
     <View>
-      <StatusBar translucent backgroundColor="transparent" />
-      <View
-        style={{ height: "100%", width: "100%", backgroundColor: "black" }}
-      />
+      <ImageBackground
+        style={{ height: "100%", width: "100%" }}
+        source={require("./assets/icon.png")}
+        blurRadius={5}></ImageBackground>
     </View>
   );
 }
